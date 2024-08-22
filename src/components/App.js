@@ -33,7 +33,7 @@ const App = () => {
         <div id="barOuter">
           <div style={{
             width: `${progress}%`,
-            height: '24px',
+            height: '100%',
             backgroundColor: progress >= 110 ? '' : 'blue',
             borderRadius:"15px"
           }} id="barInner"></div>
